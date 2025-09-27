@@ -1,1 +1,13 @@
+# Lista com 5 nomes de colegas
+colegas = ["Itamar", "Pedro", "Mateus", "Mauricio", "Kaique"]
 
+# Mostrando elementos específicos usando índices
+print("Primeiro colega:", colegas[0])
+print("Terceiro colega:", colegas[2])
+print("Último colega:", colegas[-1])
+
+# Desafio extra com IF
+if "Carla" in colegas:
+    print("Carla está na lista!")
+else:
+    print("Carla não foi encontrada na lista.")
